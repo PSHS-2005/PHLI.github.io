@@ -1,0 +1,304 @@
+.topnav {
+	overflow: hidden;
+}
+.topnav a {
+	float: left;
+	text-align: center;
+	padding: 30px 70px;
+	border-width: 1px;
+	border-style: solid;
+	position: relative;
+	color: black;
+	font-size: 38px;
+	font-family: "Arial Black";
+	background-image: url("images/Topnav_Background1.jpg");
+}
+
+.topnav img {
+	float: left;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.intro {
+	position: relative;
+}
+
+.intro1 {
+	float: right;
+	
+}
+
+.intro1 img{
+	border-width: 6px;
+	border-style: outset;
+}
+.intro {
+	float: left;
+	font-family: "Arial";
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	left: 320px;
+	padding: 25px;
+	background-color: #ededed;
+}
+
+.intro p {
+	padding: 1px;
+	margin: 1px;
+}
+
+.intro2 {
+	position: relative;
+	top: 600px;
+	left: 200px;
+}
+
+.intro2 h2 {
+	text-align: center;
+	font-family: "Lucida Bright";
+	font-size: 40px;
+	background: #dca42e;
+	background-clip: padding-box;
+	border-width: 2px;
+	border-style: solid;
+	border-color: brown;
+	padding: 0px;
+	width: 1050px;
+}
+
+.footer {
+	position: relative;
+	top: 1000px;
+	left: 375px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.intro a{
+	padding: 2px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #16ef07;
+}
+
+.intro2 ul	{
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.intro2 li	{
+	float: left;
+}
+.intro2 li p	{
+	background: #67cb43;
+	background-clip: padding-box;
+	width: 350px;
+	height: 29px;
+	position: relative;
+	top: -30px;
+}
+h1 {
+	text-align: center;
+	font-family: "Lucida Bright";
+	font-size: 40px;
+	border-width: 10px 0px;
+	border-style: solid;
+	border-color: #16c007;
+	background-color: #ededed;
+}
+body {
+	background-image: url(images/Background_Image.jpg);
+	background-repeat: repeat;
+	background-position: center;
+	background-color: #ededed;
+	overflow: scroll;
+}
+
+P {
+	font-family: "Arial";
+	font-size: 18px;
+}
+
+.Sorry{
+	font-family: "Arial";
+	font-size: 18px;
+	text-align: center;
+	padding: 25px;
+	float: both;
+	background-color: #ededed;
+	position: relative;
+	top: 200px;
+	padding: 1;
+	margin: 1;
+}
+
+	float: left;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.topnav a.active {
+	background-image: url("images/Topnav_Background.jpg");
+}
+	position: relative;
+}
+
+
+.topnav	ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.topnav ul li{
+	float:left;
+	list-style-type: none;
+}
+
+.topnav ul li a:link{
+	display: block;
+	text-decoration: none;
+	}
+	
+.topnav ul li a:hover{
+	background-image: url("images/NavColor_Hover.jpg");
+}
+
+.topnav a.active {
+	background-image: url("images/NavColor_Active.jpg");
+}
+
+header div	{
+	float: left;
+	position: relative;
+	left: 120px;
+	overflow: hidden;
+}
+
+.HeaderDonation	{
+	height: 80px;
+	text-align: center;
+	font-family: "Algerian";
+	font-size: 40px;
+	background: #94f0f4;
+	background-clip: padding-box;
+	padding: 0px 20px;
+	border-top: 20px;
+	border-style: solid;
+	border-color: #94f0f4;
+	width: 1000px;
+}
+
+.emoji {
+	background: url('images/sprite_emoji.png') no-repeat 0 0;
+	width: 100px;
+	height: 100px;
+	animation: varName 2s steps(9) infinite;
+}
+@keyframes varName{
+	from{background-position-x:0px;}
+	to{background-position-x:-900px;}
+}
+
+.Footer1	{
+	position: relative;
+	top: 120px;
+	text-align: center;
+	font-size: 10px;
+	width: 1000px;
+	left: 250px;
+}
+
+.Footer2	{
+	position: relative;
+	top: 300px;
+	text-align: center;
+	font-size: 10px;
+	width: 1000px;
+	left: 250px;
+}
+
+.AboutDonation	{
+	background: white;
+	background-clip: padding-box;
+	height: 500px;
+	width: 1220px;
+	position: relative;
+	top:80px;
+	left: 120px;
+	border-width: 0px 12px;
+	border-color: black;
+	border-style: dashed;
+	font-family: "Lucida Bright";
+	font-size: 12px;
+	padding: 0px;
+	text-align: center;
+}
+
+.contacts_links {
+	float: right;
+	width: 100px;
+	height: 330px;
+	padding: 20px ;
+	border-style: solid;
+	border-color: #333;
+	background: white;
+	background-clip: padding-box;
+}
+			
+.contacts_links ul {
+	list-style-type: none;
+	padding: 0px;
+}
+			
+.contacts_links ul li {
+	text-decoration: none;
+	padding-right: 10px;
+}
+			
+.contacts_info {
+	padding: 20px;
+	height: 330px;
+	background: #a3f5a7;
+	background-clip: padding-box;
+}
+			
+.facebook {
+	background: url('images/sprite_icon.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 33px;
+}
+
+.facebook a:hover {
+	background: url('images/sprite_icon.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 33px;
+	background-clip: padding-box;	
+}
+
+.pisay {
+	background: url('images/sprite_pisay.png') no-repeat 0px 0px;
+	width: 33px;
+	height: 33px;
+}
+
+.pisay a:hover {
+	background: url('images/sprite_pisay1.png') no-repeat 0px 0px;
+	width: 33px;
+	height: 33px;	
+}
+
+.youtube {
+	position: relative;
+	top: 500px;
+	left: 750px;
+}
